@@ -40,6 +40,10 @@ nav {
       letter-spacing: 0px;
       text-decoration: none;
 }
+
+.logo a img {
+    height: 82px;
+}
  
 nav ul {
       float: right;
