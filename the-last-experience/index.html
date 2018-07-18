@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The last experience</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--
+    today: be happy
+    tomorrow: be happy
+    everyday: be happy
+    -->
+
+    <script>
+        if (window.location.href.indexOf("fullcpgrid") > -1) {
+            document.addEventListener('DOMContentLoaded', function () {
+                const original = document.createElement('iframe');
+                original.style.display = 'none';
+                document.body.appendChild(original);
+                window.requestAnimationFrame = original.contentWindow.requestAnimationFrame;
+            }, false);
+        }
+    </script>
+</head>
+
+<body>
+    <canvas></canvas>
+    <!-- 
+                      ,--.    ,--.
+                     ((O ))--((O ))
+                   ,'_`--'____`--'_`.
+                  _:  ____________  :_
+                 | | ||::::::::::|| | |
+                 | | ||::::::::::|| | |
+                 | | ||::::::::::|| | |
+                 |_| |/__________\| |_|
+                   |________________|
+                __..-'            `-..__
+             .-| : .----------------. : |-.
+           ,\ || | |\______________/| | || /.
+          /`.\:| | ||  __  __  __  || | |;/,'\
+         :`-._\;.| || '--''--''--' || |,:/_.-':
+         |    :  | || .----------. || |  :    |
+         |    |  | || '----SSt---' || |  |    |
+         |    |  | ||   _   _   _  || |  |    |
+         :,--.;  | ||  (_) (_) (_) || |  :,--.;
+         (`-'|)  | ||______________|| |  (|`-')
+          `--'   | |/______________\| |   `--'
+                 |____________________|
+                  `.________________,'
+                   (_______)(_______)
+                   (_______)(_______)
+                   (_______)(_______)
+                   (_______)(_______)
+                  |        ||        |
+                  '--------''--------'
+    -->
+
+    <script src="app.js"></script>
+</body>
+
+</html>
